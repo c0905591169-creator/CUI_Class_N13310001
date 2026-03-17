@@ -1,6 +1,6 @@
 git clone https://github.com/c0905591169-creator/CUI_Class_N13310001.git
 git add .
-git config --global user.emai "c0905591169@gmail.com"
+git config --global user.email "c0905591169@gmail.com"
 git config --global user.name "c0905591169"
 git commit -m "20260310"
 git push -u origin main

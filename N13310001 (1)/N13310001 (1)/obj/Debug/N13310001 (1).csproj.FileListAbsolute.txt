@@ -1,0 +1,10 @@
+C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\bin\Debug\N13310001 (1).exe.config
+C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\bin\Debug\N13310001 (1).exe
+C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\bin\Debug\N13310001 (1).pdb
+C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug\N13310001 (1).csproj.AssemblyReference.cache
+C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug\N13310001__1_.Form1.resources
+C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug\N13310001__1_.Properties.Resources.resources
+C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug\N13310001 (1).csproj.GenerateResource.cache
+C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug\N13310001 (1).csproj.CoreCompileInputs.cache
+C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug\N13310001 (1).exe
+C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug\N13310001 (1).pdb

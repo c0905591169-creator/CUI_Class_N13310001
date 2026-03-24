@@ -16,5 +16,13 @@ namespace N13310001__1_
         {
             InitializeComponent();
         }
+
+        private void btn_ClickMe_Click(object sender, EventArgs e)
+        {
+            if (btn_ClickMe.Text=="按我一下")
+                btn_ClickMe.Text ="我已經被點擊過了";
+            else if (btn_ClickMe.Text=="我已經被點擊過了")
+                btn_ClickMe.Text ="按我一下";
+        }
     }
 }

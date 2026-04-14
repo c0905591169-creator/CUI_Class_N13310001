@@ -34,6 +34,10 @@
             this.lab_ChangeLabel = new System.Windows.Forms.Label();
             this.lab_Counter = new System.Windows.Forms.Label();
             this.btn_Counter = new System.Windows.Forms.Button();
+            this.btnBigger = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -105,11 +109,55 @@
             this.btn_Counter.UseVisualStyleBackColor = true;
             this.btn_Counter.Click += new System.EventHandler(this.btn_Counter_Click);
             // 
+            // btnBigger
+            // 
+            this.btnBigger.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBigger.Location = new System.Drawing.Point(300, 170);
+            this.btnBigger.Name = "btnBigger";
+            this.btnBigger.Size = new System.Drawing.Size(122, 68);
+            this.btnBigger.TabIndex = 6;
+            this.btnBigger.Text = "按鈕放大";
+            this.btnBigger.UseVisualStyleBackColor = true;
+            this.btnBigger.Click += new System.EventHandler(this.btnBigger_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("新細明體", 12F);
+            this.label2.Location = new System.Drawing.Point(534, 102);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 16);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "label2";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(537, 147);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 8;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(537, 191);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(134, 31);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "按我複製至串到Label";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnBigger);
             this.Controls.Add(this.lab_Counter);
             this.Controls.Add(this.btn_Counter);
             this.Controls.Add(this.lab_ChangeLabel);
@@ -131,6 +179,10 @@
         private System.Windows.Forms.Label lab_ChangeLabel;
         private System.Windows.Forms.Label lab_Counter;
         private System.Windows.Forms.Button btn_Counter;
+        private System.Windows.Forms.Button btnBigger;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

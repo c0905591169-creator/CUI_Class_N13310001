@@ -38,6 +38,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnCalculator = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -149,11 +150,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnCalculator
+            // 
+            this.btnCalculator.Location = new System.Drawing.Point(300, 269);
+            this.btnCalculator.Name = "btnCalculator";
+            this.btnCalculator.Size = new System.Drawing.Size(136, 61);
+            this.btnCalculator.TabIndex = 10;
+            this.btnCalculator.Text = "計算機";
+            this.btnCalculator.UseVisualStyleBackColor = true;
+            this.btnCalculator.Click += new System.EventHandler(this.btnCalculator_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCalculator);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
@@ -183,6 +195,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCalculator;
     }
 }
 

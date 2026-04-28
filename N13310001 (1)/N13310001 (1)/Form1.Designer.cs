@@ -42,6 +42,7 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnOpen = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -194,11 +195,23 @@
             this.label3.Text = "0";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // btnOpen
+            // 
+            this.btnOpen.Font = new System.Drawing.Font("新細明體", 15F);
+            this.btnOpen.Location = new System.Drawing.Point(345, 385);
+            this.btnOpen.Name = "btnOpen";
+            this.btnOpen.Size = new System.Drawing.Size(292, 90);
+            this.btnOpen.TabIndex = 14;
+            this.btnOpen.Text = "開啟溫度轉換";
+            this.btnOpen.UseVisualStyleBackColor = true;
+            this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1056, 510);
+            this.Controls.Add(this.btnOpen);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnAdd);
@@ -236,6 +249,7 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnMinus;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnOpen;
     }
 }
 

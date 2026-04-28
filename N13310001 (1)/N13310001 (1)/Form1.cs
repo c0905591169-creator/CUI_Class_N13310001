@@ -87,5 +87,11 @@ namespace N13310001__1_
             int sum = Int32.Parse(count)-1;
             label3.Text = sum.ToString();
         }
+
+        private void btnOpen_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.Show();
+        }
     }
     }

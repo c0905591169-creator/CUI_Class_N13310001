@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -19,10 +21,28 @@ namespace N13310001__1_
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int a = Int32.Parse(textBox1.Text);
-            int b = Int32.Parse(textBox2.Text);
-            int sum = a+b;
-            label3.Text = sum.ToString();
+            try
+            {
+                int[] numbers = new int[10];
+                numbers[0]=1;
+                numbers[1]=2;
+                MessageBox.Show(numbers[10].ToString());
+                int a = Int32.Parse(textBox1.Text);
+                int b = Int32.Parse(textBox2.Text);
+                int sum = a+b;
+                label3.Text = sum.ToString();
+            }/*catch(FormatException ex) {
+
+                MessageBox.Show(ex.Message+"輸入的不可以是標點符號，請輸入整數");
+
+
+            }catch(IndexOutOfRangeException ex)
+            {
+                MessageBox.Show(ex.Message+"你宣告的陣列爆掉了拉!");
+            }*/catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message+"你輸入的有問題 但我不知道是哪裡錯");
+            }
         }
     }
 }

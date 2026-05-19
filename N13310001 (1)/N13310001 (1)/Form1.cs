@@ -93,5 +93,10 @@ namespace N13310001__1_
             Form2 f = new Form2();
             f.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new FormTimer().Show();
+        }
     }
     }

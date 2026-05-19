@@ -43,6 +43,7 @@
             this.btnMinus = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.btnOpen = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -198,7 +199,7 @@
             // btnOpen
             // 
             this.btnOpen.Font = new System.Drawing.Font("新細明體", 15F);
-            this.btnOpen.Location = new System.Drawing.Point(345, 385);
+            this.btnOpen.Location = new System.Drawing.Point(537, 378);
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(292, 90);
             this.btnOpen.TabIndex = 14;
@@ -206,11 +207,22 @@
             this.btnOpen.UseVisualStyleBackColor = true;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(300, 354);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(136, 61);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Timer";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1056, 510);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnOpen);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnMinus);
@@ -250,6 +262,7 @@
         private System.Windows.Forms.Button btnMinus;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnOpen;
+        private System.Windows.Forms.Button button2;
     }
 }
 

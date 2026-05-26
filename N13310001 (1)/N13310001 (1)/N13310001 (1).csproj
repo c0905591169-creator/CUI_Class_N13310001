@@ -70,6 +70,18 @@
     <Compile Include="FormCalculator.Designer.cs">
       <DependentUpon>FormCalculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCheckBox3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCheckBox3.Designer.cs">
+      <DependentUpon>FormCheckBox3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayout.Designer.cs">
+      <DependentUpon>FormLayout.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTimer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +101,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCalculator.resx">
       <DependentUpon>FormCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCheckBox3.resx">
+      <DependentUpon>FormCheckBox3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLayout.resx">
+      <DependentUpon>FormLayout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTimer.resx">
       <DependentUpon>FormTimer.cs</DependentUpon>

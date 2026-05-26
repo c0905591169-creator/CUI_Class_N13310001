@@ -12,3 +12,5 @@ C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug
 C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug\N13310001__1_.FormCalculator.resources
 C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug\N13310001__1_.Form2.resources
 C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug\N13310001__1_.FormTimer.resources
+C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug\N13310001__1_.FormCheckBox3.resources
+C:\Users\MEGAS\Desktop\CUI_Class_N13310001\N13310001 (1)\N13310001 (1)\obj\Debug\N13310001__1_.FormLayout.resources

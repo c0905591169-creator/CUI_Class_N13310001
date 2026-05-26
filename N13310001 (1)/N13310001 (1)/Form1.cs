@@ -98,5 +98,15 @@ namespace N13310001__1_
         {
             new FormTimer().Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new FormCheckBox3().Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new FormLayout().Show();
+        }
     }
     }

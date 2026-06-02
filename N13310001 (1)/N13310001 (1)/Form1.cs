@@ -12,6 +12,7 @@ namespace N13310001__1_
 {
     public partial class Form1 : Form
     {
+        int sec = 0;
         public Form1()
         {
             InitializeComponent();
@@ -107,6 +108,11 @@ namespace N13310001__1_
         private void button4_Click(object sender, EventArgs e)
         {
             new FormLayout().Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            new FormTimerCounter().Show();
         }
     }
     }

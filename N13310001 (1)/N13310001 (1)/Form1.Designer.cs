@@ -47,6 +47,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.btnOderMenu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -250,11 +251,22 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // btnOderMenu
+            // 
+            this.btnOderMenu.Location = new System.Drawing.Point(148, 432);
+            this.btnOderMenu.Name = "btnOderMenu";
+            this.btnOderMenu.Size = new System.Drawing.Size(136, 61);
+            this.btnOderMenu.TabIndex = 19;
+            this.btnOderMenu.Text = "點餐系統";
+            this.btnOderMenu.UseVisualStyleBackColor = true;
+            this.btnOderMenu.Click += new System.EventHandler(this.btnOderMenu_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1119, 553);
+            this.ClientSize = new System.Drawing.Size(1105, 620);
+            this.Controls.Add(this.btnOderMenu);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -302,6 +314,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnOderMenu;
     }
 }
 

@@ -114,5 +114,10 @@ namespace N13310001__1_
         {
             new FormTimerCounter().Show();
         }
+
+        private void btnOderMenu_Click(object sender, EventArgs e)
+        {
+            new FormOderMenu().Show();
+        }
     }
     }

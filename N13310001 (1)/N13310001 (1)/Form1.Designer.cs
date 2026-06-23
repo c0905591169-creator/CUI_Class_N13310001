@@ -253,7 +253,7 @@
             // 
             // btnOderMenu
             // 
-            this.btnOderMenu.Location = new System.Drawing.Point(148, 432);
+            this.btnOderMenu.Location = new System.Drawing.Point(753, 224);
             this.btnOderMenu.Name = "btnOderMenu";
             this.btnOderMenu.Size = new System.Drawing.Size(136, 61);
             this.btnOderMenu.TabIndex = 19;
